@@ -1,5 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_khach_hang,khach_hang access,model_khach_hang,base.group_user,1,1,1,1
-access_bao_gia,bao_gia access,model_bao_gia,base.group_user,1,1,1,1
-access_lich_hen,lich_hen access,model_lich_hen,base.group_user,1,1,1,1
-access_tuong_tac,tuong_tac access,model_tuong_tac,base.group_user,1,1,1,1
