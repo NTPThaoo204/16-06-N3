@@ -7,12 +7,10 @@
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
 # Giao diện
-![image](https://github.com/user-attachments/assets/70c6d5bb-5648-4ecf-9312-8f9524c01c08)
 
 
-# 1. Cài đặt công cụ, môi trường và các thư viện cần thiết
 
-## 1.1. Clone project.
+# 1. Clone project
 ```
 git clone https://gitlab.com/anhlta/odoo-fitdnu.git
 ```
@@ -20,65 +18,81 @@ git clone https://gitlab.com/anhlta/odoo-fitdnu.git
 cd odoo-fitdnu
 ```
 ```
-git checkout cntt15_02
+code .
 ```
 
 
-## 1.2. cài đặt các thư viện cần thiết
-
-Người sử dụng thực thi các lệnh sau đề cài đặt các thư viện cần thiết
-
+# 2. Cài đặt các thư viện cần thiết
 ```
-sudo apt-get install libxml2-dev libxslt-dev libldap2-dev libsasl2-dev libssl-dev python3.10-distutils python3.10-dev build-essential libssl-dev libffi-dev zlib1g-dev python3.10-venv libpq-dev
+sudo apt-get update
 ```
-## 1.3. khởi tạo môi trường ảo.
+```
+sudo apt-get install -y \
+  libxml2-dev libxslt-dev libldap2-dev libsasl2-dev libssl-dev \
+  python3.10-distutils python3.10-dev build-essential libffi-dev \
+  zlib1g-dev python3.10-venv libpq-dev
+```
+Kiểm tra Python 3.10 có sẵn:
+```
+python3.10 --version
+```
 
-Thay đổi trình thông dịch sang môi trường ảo và chạy requirements.txt để cài đặt tiếp các thư viện được yêu cầu
+
+# 3. Khởi tạo môi trường ảo
 ```
 python3.10 -m venv ./venv
 ```
+
+## 3.1. Kích hoạt môi trường ảo
 ```
 source venv/bin/activate
 ```
+
+## 3.2. Cài requirements
 ```
 pip3 install -r requirements.txt
 ```
 
-# 2. Setup database
+# 4. Setup database bằng Docker Compose
 
-Khởi tạo database trên docker bằng việc thực thi file dockercompose.yml.
+## 4.1. Bảo đảm Docker chạy được trong Ubuntu
 ```
-sudo apt install docker-compose
+docker ps
 ```
 ```
-sudo docker-compose up -d
+docker compose version
 ```
 
-# 3. Setup tham số chạy cho hệ thống
+## 4.2. Chạy database
+```
+docker compose up -d
+```
 
-## 3.1. Khởi tạo odoo.conf
+## 4.3. Kiểm tra container DB đang chạy
+```
+docker ps
+```
+
+
+# 5. Tạo file cấu hình odoo.conf
 
 Tạo tệp **odoo.conf** có nội dung như sau:
-
 ```
 [options]
 addons_path = addons
 db_host = localhost
-db_password = odoo
+db_password = matkhau
 db_user = odoo
 db_port = 5432
-xmlrpc_port = 8069
+xmlrpc_port = 8040
 ```
 
-# 4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
-
-Lệnh chạy
+# 6. Chạy odoo
 ```
 python3 odoo-bin.py -c odoo.conf -u all
 ```
 
-
-Người sử dụng truy cập theo đường dẫn _http://localhost:8069/_ để đăng nhập vào hệ thống.
+Người sử dụng truy cập theo đường dẫn _http://localhost:8040/_ để đăng nhập vào hệ thống.
 
 Hoàn tất
     
