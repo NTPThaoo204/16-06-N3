@@ -12,7 +12,7 @@
 
 # 1. Clone project
 ```
-git clone https://gitlab.com/anhlta/odoo-fitdnu.git
+git clone https://github.com/hieuht09/TTDN-15-02-N1.git
 ```
 ```
 cd odoo-fitdnu
@@ -94,5 +94,6 @@ python3 odoo-bin.py -c odoo.conf -u all
 
 Người sử dụng truy cập theo đường dẫn _http://localhost:8040/_ để đăng nhập vào hệ thống.
 
-Hoàn tất
-    
+# 7. Tham khảo
+
+https://github.com/hieuht09/TTDN-15-02-N1.git
