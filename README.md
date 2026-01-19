@@ -6,7 +6,15 @@
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
-# Giao diện
+
+# 1. Giao diện khách hàng
+<img width="1860" height="429" alt="image" src="https://github.com/user-attachments/assets/6a627a30-35bd-4382-a5ae-413dcbc17e5b" />
+
+# 2. Giao diện công việc
+<img width="1860" height="847" alt="image" src="https://github.com/user-attachments/assets/b2e205aa-8d98-4899-8ec2-8dba3bcd4109" />
+
+# 3. Giao diện báo cáo tiến độ
+<img width="1860" height="847" alt="image" src="https://github.com/user-attachments/assets/cd53f574-272d-457b-8180-1de4903bf9a8" />
 
 
 
