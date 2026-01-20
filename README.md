@@ -20,7 +20,7 @@
 
 # 1. Clone project
 ```
-git clone https://github.com/hieuht09/TTDN-15-02-N1.git
+git clone https://github.com/NTPThaoo204/16-06-N3.git
 ```
 ```
 cd odoo-fitdnu
