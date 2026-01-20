@@ -8,13 +8,17 @@
 
 
 # 1. Giao diện khách hàng
-<img width="1860" height="429" alt="image" src="https://github.com/user-attachments/assets/6a627a30-35bd-4382-a5ae-413dcbc17e5b" />
+<img width="1850" height="441" alt="image" src="https://github.com/user-attachments/assets/e9933362-befc-467c-b461-3fee335ebf82" />
 
 # 2. Giao diện công việc
-<img width="1860" height="847" alt="image" src="https://github.com/user-attachments/assets/b2e205aa-8d98-4899-8ec2-8dba3bcd4109" />
+<img width="1850" height="817" alt="image" src="https://github.com/user-attachments/assets/068d417d-8550-4001-b13b-5325b0389e6b" />
 
 # 3. Giao diện báo cáo tiến độ
-<img width="1860" height="847" alt="image" src="https://github.com/user-attachments/assets/cd53f574-272d-457b-8180-1de4903bf9a8" />
+<img width="1864" height="834" alt="image" src="https://github.com/user-attachments/assets/6fadf584-99c2-42dc-853d-29ddac1d95f1" />
+
+# 4. Giao diện một số biểu đồ
+<img width="1864" height="998" alt="image" src="https://github.com/user-attachments/assets/a8730899-75d3-4fe6-b293-10af1b24f6d4" />
+<img width="1864" height="998" alt="image" src="https://github.com/user-attachments/assets/c83f101b-4b81-48e9-8e7d-ecdffa7c5ac8" />
 
 
 
