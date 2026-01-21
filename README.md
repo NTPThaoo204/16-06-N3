@@ -8,7 +8,7 @@
 
 
 # 1. Giao diện khách hàng
-<img width="1860" height="673" alt="image" src="https://github.com/user-attachments/assets/dba5ecd9-0a58-4ce0-8452-45337ef642ca" />
+<img width="1862" height="437" alt="image" src="https://github.com/user-attachments/assets/0321f778-99da-45ac-8f29-8006554925f9" />
 
 # 2. Giao diện công việc
 <img width="1860" height="673" alt="image" src="https://github.com/user-attachments/assets/e40e7b4c-1c3b-4b57-b954-f659c6b08816" />
