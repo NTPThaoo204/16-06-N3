@@ -11,14 +11,15 @@
 <img width="1862" height="437" alt="image" src="https://github.com/user-attachments/assets/0321f778-99da-45ac-8f29-8006554925f9" />
 
 # 2. Giao diện công việc
-<img width="1860" height="673" alt="image" src="https://github.com/user-attachments/assets/e40e7b4c-1c3b-4b57-b954-f659c6b08816" />
+<img width="1866" height="625" alt="image" src="https://github.com/user-attachments/assets/9c497c79-9881-40f3-a2ec-e0dbebeb8fd4" />
 
 # 3. Giao diện báo cáo tiến độ
-<img width="1862" height="734" alt="image" src="https://github.com/user-attachments/assets/6f79113d-4541-4cd8-ba7c-0ee8810c6a0d" />
+<img width="1866" height="751" alt="image" src="https://github.com/user-attachments/assets/36a9196b-754e-4721-833d-3ecb855c9ad5" />
 
 # 4. Giao diện một số biểu đồ
-<img width="1862" height="996" alt="image" src="https://github.com/user-attachments/assets/5d06a003-6e35-4ed3-a590-701909e5088a" />
-<img width="1862" height="996" alt="image" src="https://github.com/user-attachments/assets/050ab831-9f5b-4e76-a91b-0a8b27ad51bc" />
+<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/7a1a5cf6-07fa-4de2-9108-70032e34a7f5" />
+<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/6d876761-8503-4d32-846d-90577211efa7" />
+
 
 
 
@@ -28,7 +29,7 @@
 git clone https://github.com/NTPThaoo204/16-06-N3.git
 ```
 ```
-cd odoo-fitdnu
+cd 16-06-N3
 ```
 ```
 code .
