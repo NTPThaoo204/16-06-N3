@@ -19,9 +19,7 @@
 # 4. Giao diện một số biểu đồ
 <img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/7a1a5cf6-07fa-4de2-9108-70032e34a7f5" />
 <img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/6d876761-8503-4d32-846d-90577211efa7" />
-
-
-
+<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/fd9e3d66-636c-4e67-a55a-541d0dc0eb18" />
 
 
 # 1. Clone project
