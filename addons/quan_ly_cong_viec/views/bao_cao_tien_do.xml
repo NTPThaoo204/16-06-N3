@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ================= FORM VIEW ================= -->
+    <record id="view_bao_cao_tien_do_form" model="ir.ui.view">
+        <field name="name">bao_cao_tien_do.form</field>
+        <field name="model">bao_cao_tien_do</field>
+        <field name="arch" type="xml">
+            <form string="Báo cáo tiến độ">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="cong_viec_id"/>
+                            <field name="ten_cong_viec" readonly="1"/>
+                            <field name="nhan_vien_id"/>
+                        </group>
+                        <group>
+                            <field name="ngay_bao_cao"/>
+                            <field name="tien_do"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Nội dung báo cáo">
+                            <field name="noi_dung"/>
+                        </page>
+                        <page string="Vấn đề và Giải pháp">
+                            <field name="van_de_phat_sinh"/>
+                            <field name="giai_phap"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ================= TREE VIEW ================= -->
+    <record id="view_bao_cao_tien_do_tree" model="ir.ui.view">
+        <field name="name">bao_cao_tien_do.tree</field>
+        <field name="model">bao_cao_tien_do</field>
+        <field name="arch" type="xml">
+            <tree string="Danh sách báo cáo">
+                <field name="ngay_bao_cao"/>
+                <field name="cong_viec_id"/>
+                <field name="nhan_vien_id"/>
+                <field name="tien_do" widget="progressbar"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ================= SEARCH VIEW ================= -->
+    <record id="view_bao_cao_tien_do_search" model="ir.ui.view">
+        <field name="name">bao_cao_tien_do.search</field>
+        <field name="model">bao_cao_tien_do</field>
+        <field name="arch" type="xml">
+            <search>
+
+                <field name="cong_viec_id"/>
+                <field name="nhan_vien_id"/>
+                <field name="ngay_bao_cao"/>
+
+                <filter name="today"
+                        string="Báo cáo hôm nay"
+                        domain="[('ngay_bao_cao','=',context_today())]"/>
+
+                <filter name="co_van_de"
+                        string="Có vấn đề phát sinh"
+                        domain="[('van_de_phat_sinh','!=',False)]"/>
+
+                <group expand="0" string="Nhóm theo">
+                    <filter name="group_cong_viec"
+                            string="Công việc"
+                            context="{'group_by':'cong_viec_id'}"/>
+                    <filter name="group_nhan_vien"
+                            string="Nhân viên"
+                            context="{'group_by':'nhan_vien_id'}"/>
+                    <filter name="group_ngay"
+                            string="Ngày báo cáo"
+                            context="{'group_by':'ngay_bao_cao'}"/>
+                </group>
+
+            </search>
+        </field>
+    </record>
+
+    <!-- ================= GRAPH VIEW (BAR / LINE / PIE) ================= -->
+    <record id="view_bao_cao_tien_do_graph" model="ir.ui.view">
+        <field name="name">bao_cao_tien_do.graph</field>
+        <field name="model">bao_cao_tien_do</field>
+        <field name="arch" type="xml">
+            <graph string="Phân tích tiến độ công việc" type="bar">
+                <field name="cong_viec_id" type="row"/>
+                <field name="tien_do" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <!-- ================= PIVOT VIEW ================= -->
+    <record id="view_bao_cao_tien_do_pivot" model="ir.ui.view">
+        <field name="name">bao_cao_tien_do.pivot</field>
+        <field name="model">bao_cao_tien_do</field>
+        <field name="arch" type="xml">
+            <pivot string="Pivot báo cáo tiến độ">
+                <field name="cong_viec_id" type="row"/>
+                <field name="nhan_vien_id" type="col"/>
+                <field name="tien_do" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <!-- ================= ACTION ================= -->
+    <record id="action_bao_cao_tien_do" model="ir.actions.act_window">
+        <field name="name">Báo cáo tiến độ</field>
+        <field name="res_model">bao_cao_tien_do</field>
+        <field name="view_mode">tree,form,graph,pivot</field>
+        <field name="search_view_id" ref="view_bao_cao_tien_do_search"/>
+    </record>
+
+</odoo>

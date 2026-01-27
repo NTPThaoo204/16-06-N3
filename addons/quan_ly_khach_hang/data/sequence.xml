@@ -1,0 +1,10 @@
+<odoo>
+    <record id="seq_cong_viec" model="ir.sequence">
+        <field name="name">Công việc</field>
+        <field name="code">cong_viec</field>
+        <field name="prefix">CV</field>
+        <field name="padding">5</field>
+        <field name="number_next">1</field>
+        <field name="implementation">standard</field>
+    </record>
+</odoo>

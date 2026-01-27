@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- TREE -->
+    <record id="view_lich_hen_tree" model="ir.ui.view">
+        <field name="name">lich_hen.tree</field>
+        <field name="model">lich_hen</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="khach_hang_id"/>
+                <field name="nhan_vien_id"/>
+                <field name="ngay_tuong_tac"/>
+                <field name="dia_diem"/>
+                <field name="trang_thai"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FORM -->
+    <record id="view_lich_hen_form" model="ir.ui.view">
+        <field name="name">lich_hen.form</field>
+        <field name="model">lich_hen</field>
+        <field name="arch" type="xml">
+            <form string="Lịch hẹn khách hàng">
+                <sheet>
+                    <group>
+                        <field name="khach_hang_id"/>
+                        <field name="nhan_vien_id"/>
+                        <field name="cong_viec_id"/>                      
+                    </group>
+                    <group string="Thông tin hẹn">
+                        <field name="ngay_tuong_tac"/>
+                        <field name="dia_diem"/>
+                        <field name="trang_thai"/>
+                    </group>
+                    <group>
+                        <field name="ghi_chu"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- GRAPH -->
+    <record id="view_lich_hen_graph" model="ir.ui.view">
+        <field name="name">lich_hen.graph</field>
+        <field name="model">lich_hen</field>
+        <field name="arch" type="xml">
+            <graph string="Thống kê lịch hẹn theo trạng thái" type="bar">
+                <field name="trang_thai"/>
+                <field name="id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+    <!-- ACTION -->
+    <record id="action_lich_hen" model="ir.actions.act_window">
+        <field name="name">Lịch hẹn</field>
+        <field name="res_model">lich_hen</field>
+        <field name="view_mode">tree,form,graph</field>
+    </record>
+</odoo>

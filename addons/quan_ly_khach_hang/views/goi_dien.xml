@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- TREE -->
+    <record id="view_goi_dien_tree" model="ir.ui.view">
+        <field name="name">goi_dien.tree</field>
+        <field name="model">goi_dien</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="khach_hang_id"/>
+                <field name="nhan_vien_id"/>
+                <field name="ngay_tuong_tac"/>
+                <field name="thoi_luong_phut"/>
+                <field name="trang_thai"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FORM -->
+    <record id="view_goi_dien_form" model="ir.ui.view">
+        <field name="name">goi_dien.form</field>
+        <field name="model">goi_dien</field>
+        <field name="arch" type="xml">
+            <form string="Gọi điện khách hàng">
+                <sheet>
+                    <group>
+                        <field name="khach_hang_id"/>
+                        <field name="nhan_vien_id"/>
+                        <field name="cong_viec_id"/>
+                        <field name="ngay_tuong_tac"/>
+                    </group>
+                    <group string="Thông tin cuộc gọi">
+                        <field name="thoi_luong_phut"/>
+                        <field name="trang_thai"/>
+                    </group>
+                    <group>
+                        <field name="ghi_chu"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- GRAPH -->
+    <record id="view_goi_dien_graph_bar" model="ir.ui.view">
+        <field name="name">goi_dien.graph.bar</field>
+        <field name="model">goi_dien</field>
+        <field name="arch" type="xml">
+            <graph string="Thống kê gọi điện theo trạng thái" type="bar">
+                <field name="trang_thai"/>
+                <field name="id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="action_goi_dien" model="ir.actions.act_window">
+        <field name="name">Gọi điện</field>
+        <field name="res_model">goi_dien</field>
+        <field name="view_mode">tree,form,graph</field>
+    </record>
+</odoo>
