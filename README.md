@@ -8,18 +8,24 @@
 
 
 # 1. Giao diện khách hàng
-<img width="1862" height="437" alt="image" src="https://github.com/user-attachments/assets/0321f778-99da-45ac-8f29-8006554925f9" />
+<img width="1866" height="603" alt="image" src="https://github.com/user-attachments/assets/8e0ae998-c6bf-4ee9-bd2b-8ec3dafa1121" />
 
-# 2. Giao diện công việc
-<img width="1866" height="625" alt="image" src="https://github.com/user-attachments/assets/9c497c79-9881-40f3-a2ec-e0dbebeb8fd4" />
+# 2. Giao diện tương tác
+<img width="1866" height="406" alt="image" src="https://github.com/user-attachments/assets/fb6d7eae-abe2-4253-ad64-8fcef6ff521c" />
+<img width="1866" height="367" alt="image" src="https://github.com/user-attachments/assets/c3653519-4069-4d93-85fd-c5fc6c07960e" />
+<img width="1866" height="336" alt="image" src="https://github.com/user-attachments/assets/7db8c655-b018-4389-a0c0-dc1ad4acaf33" />
 
-# 3. Giao diện báo cáo tiến độ
-<img width="1866" height="751" alt="image" src="https://github.com/user-attachments/assets/36a9196b-754e-4721-833d-3ecb855c9ad5" />
+# 3. Giao diện công việc
+<img width="1866" height="1003" alt="image" src="https://github.com/user-attachments/assets/0e7c5f50-ca2c-4aef-9bda-85116db886fb" />
 
-# 4. Giao diện một số biểu đồ
-<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/7a1a5cf6-07fa-4de2-9108-70032e34a7f5" />
-<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/6d876761-8503-4d32-846d-90577211efa7" />
-<img width="1865" height="1000" alt="image" src="https://github.com/user-attachments/assets/fd9e3d66-636c-4e67-a55a-541d0dc0eb18" />
+# 4. Giao diện báo cáo tiến độ
+<img width="1866" height="705" alt="image" src="https://github.com/user-attachments/assets/9ff0bdeb-1b66-4fcf-9a5f-d165b9ad3134" />
+
+# 5. Giao diện một số biểu đồ
+<img width="1866" height="1002" alt="image" src="https://github.com/user-attachments/assets/c390f228-da75-4c29-ae7d-63c9a3f45830" />
+<img width="1866" height="997" alt="image" src="https://github.com/user-attachments/assets/aa1f7c4f-3006-48a6-8e2c-f6757b6b9f8a" />
+<img width="1866" height="997" alt="image" src="https://github.com/user-attachments/assets/081e863c-ea37-4b98-a713-79cbdc153205" />
+<img width="1866" height="997" alt="image" src="https://github.com/user-attachments/assets/05274add-1940-469a-9040-45b1de11e4ae" />
 
 
 # 1. Clone project
