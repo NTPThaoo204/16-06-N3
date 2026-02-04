@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
-![Poster](image/poster.pdf)
+![Poster](image/poster.jpg)
 
 
 # 1. Giao diện khách hàng
