@@ -7,6 +7,7 @@
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
 
+
 # 1. Giao diện khách hàng
 <img width="1866" height="603" alt="image" src="https://github.com/user-attachments/assets/8e0ae998-c6bf-4ee9-bd2b-8ec3dafa1121" />
 
